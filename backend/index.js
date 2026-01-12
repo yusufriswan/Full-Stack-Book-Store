@@ -9,7 +9,7 @@ require('dotenv').config()
 //middleware 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['http://localhost:5173', 'https://full-stack-book-store-tan.vercel.app'],
     credentials: true
 }))
 
